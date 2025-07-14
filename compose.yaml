@@ -1,0 +1,7 @@
+﻿services:
+  casokohler:
+    image: casokohler
+    build:
+      context: .
+      dockerfile: casokohler/Dockerfile
+
